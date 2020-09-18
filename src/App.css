@@ -1,0 +1,102 @@
+.App {
+  background-color: rgb(36, 36, 36);
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  background-color: rgb(21, 141, 180);
+  height: 10vh;
+  line-height: 10vh;
+  padding-left: 50px;
+  font-size: 24px;
+}
+
+.user-wrapper {
+  display: flex;
+  margin: 100px auto;
+  height: 550px;
+  width: 1000px;
+  background-color: rgb(189, 189, 189);
+  border-radius: 5px;
+  position: relative;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: rgb(36, 36, 36);
+}
+
+.buttons-section button {
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+  letter-spacing: .8px;
+  cursor: pointer;
+}
+
+.previous-next {
+  font-size: 18px;
+}
+
+.middle-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.middle-buttons button {
+  background-color: rgb(21, 141, 180);
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+}
+
+.middle-buttons button:hover{
+  background-color:  rgb(16, 126, 163);
+}
+
+.user-section {
+  width: 100%;
+  position: relative;
+}
+
+.user-data {
+  margin-left: 100px;
+  margin-top: 75px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.5;
+}
+
+.user-data h1 {
+  width: fit-content;
+  font-size: 30px;
+  border-bottom: 1.8px solid rgb(21, 141, 180);
+  padding-bottom: 10px;
+}
+
+.user-data span {
+  font-weight: bold;
+}
+
+.user-number {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 25px;
+}
+
+.movies ol {
+  margin-left: 50px;
+}
