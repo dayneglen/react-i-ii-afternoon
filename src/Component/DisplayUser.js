@@ -23,7 +23,7 @@ const DisplayUser = props => {
                 </section>
             </section>
             <section className='user-number'>
-                <h3>{userData[user].id}/25 </h3>
+                <h3>{userData[user].id}/{userData.length} </h3>
             </section>
         </section>
     )

@@ -5,7 +5,7 @@ const Buttons = props => (
         <button className='previous-next' onClick={props.previousUserFn}>&lt; Previous</button>
         <section className='middle-buttons'>
             <button>Edit</button>
-            <button>Delete</button>
+            <button onClick={ () => props.deleteUser(props.userData[props.current].id)}>Delete</button>
             <button>New</button>
         </section>
         <button className='previous-next' onClick={props.nextUserFn}>Next &gt; </button>
@@ -13,3 +13,4 @@ const Buttons = props => (
 )
 
 export default Buttons;
+
